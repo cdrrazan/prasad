@@ -1,0 +1,26 @@
+{% for category in page.categories %}
+  {% assign moreThanOneInCategory = false %}
+  {% assign posts = site.categories[category] %}
+
+  {% for post in posts  %}
+    {% if forloop.length > 1 %}
+      {% assign moreThanOneInCategory = true %}
+    {% endif %}
+  {% endfor %}
+
+  {% if moreThanOneInCategory == true %}
+    <div class="related-posts">
+      <h3>Related Post in “{{ category | capitalize }}”</h3>
+    <br>
+      <ul>
+        {% for post in posts limit: 6 %}
+          {% unless post.url == page.url %}
+
+              <a  class="thepostlink" href="{{ post.url | prepend: site.baseurl }}"><p style="color:black">{{ post.title }}  | <time datetime="{{ post.date | date_to_xmlschema }}"> {{ post.date | date: "%B %-d, %Y" }}</time> </p></a>
+          <hr/>
+          {% endunless %}
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+{% endfor %}
