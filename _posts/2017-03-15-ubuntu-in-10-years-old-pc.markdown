@@ -1,7 +1,7 @@
 ---
 layout: post
-cover: assets/images/desk.jpg
-title: Ubuntu in old pc!
+cover: assets/images/1.jpg
+title: Ubuntu in old PC
 date: 2017-03-15 12:00:00 +0545
 categories: blog
 author: john

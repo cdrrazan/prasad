@@ -2,13 +2,12 @@
 layout: default
 ---
 <section>
-
     <div class="row">
-
         <div class="col-sm-8">
             <div class="section-title">
                 <h2><span>{{ page.title }}</span></h2>
             </div>
+
             <div class="article-post">
                 {{content}}
             </div>
@@ -20,15 +19,12 @@ layout: default
                     </div>
                 </div>
             {% endif %}
-
         </div>
 
         <!-- Sidebar -->
         <div class="col-sm-4">
-
             {% include sidebar.html %}
-
         </div>
-    </div>
 
+    </div>
 </section>

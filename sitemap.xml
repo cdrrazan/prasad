@@ -6,7 +6,7 @@ layout: null
   {% for page in site.pages %}
     {% if page.sitemap != null and page.sitemap != empty %}
       <url>
-        <loc>{{ site.production_url }}{{ site.baseurl | remove_first: '/' }}{{ page.url | remove_first: '/' }}</loc>
+        <loc>{{ site.url }}{{ page.url }}</loc>
         {% if page.sitemap %}
           {% if page.sitemap.lastmod %}
           <lastmod>{{ page.sitemap.lastmod | date_to_xmlschema }}</lastmod>
@@ -23,7 +23,7 @@ layout: null
   {% endfor %}
   {% for post in site.posts %}
     <url>
-      <loc>{{ site.production_url }}{{ site.baseurl | remove_first: '/' }}{{ post.url | remove_first: '/' }}</loc>
+      <loc>{{ site.url }}{{ post.url }}</loc>
       {% if post.lastmod == null %}
         <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
       {% else %}

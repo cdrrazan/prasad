@@ -4,7 +4,7 @@
             <a class="newer-posts" href="{{site.baseurl}}/" title="Previous Page">&laquo; Newer</a>
         {% else %}
             <a class="newer-posts" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" title="Previous Page">&laquo; Newer </a>
-      {% endif %}
+        {% endif %}
     {% endif %}
     <span class="page-number"> &nbsp; &nbsp; Page {{paginator.page}} of {{paginator.total_pages}} &nbsp; &nbsp; </span>
     {% if paginator.next_page %}

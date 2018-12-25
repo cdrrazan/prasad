@@ -1,7 +1,7 @@
 ---
 layout: post
-cover:  assets/images/repo.jpg
-title: Auto deploy your static site in github!
+cover:  assets/images/3.jpg
+title: Auto deploy your static site in github
 date: 2017-12-09 12:00:00 +0545
 categories: blog
 author: john

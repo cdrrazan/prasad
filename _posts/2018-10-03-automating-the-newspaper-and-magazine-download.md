@@ -1,6 +1,6 @@
 ---
 layout: post
-cover:  assets/images/nws.jpg
+cover:  assets/images/4.jpg
 title: Automating the Newspaper download
 date: 2018-10-03 00:00:00 +0545
 categories: blog
