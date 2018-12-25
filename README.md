@@ -2,7 +2,7 @@
 
 > Prasad is a Jekyll theme designed for complete portfolio-cum-blog for developers, which is forked version of Affiliate Jekyll theme.
 
-- **Demo:** https://cdrrazan.github.io/prasad/
+- **Demo:** https://prasad.cdrrazan.com
 
 ![SCREENSHOT](demo.png)
 
