@@ -8,12 +8,16 @@ Prasad is the modified form of Prasad theme.
 <h3> Features </h3>
 
 - Built for Jekyll
-- Compatible with Github pages
+> Built in Jekyll 3.8.5
+- Compatible with Github and Gitlab Pages
+> Check .gitlab-ci.yml for CI/CD
 - Featured Posts
 - Index Pagination
 - Post Categories
+> categories/name
 - Prev/Next Link
 - Category Archives (this is not yet compatible with github pages though)
+> compatible with netlify and gitlab pages
 - Integrations:
     - Disqus Comments
     - Google Analaytics
@@ -98,4 +102,5 @@ comments: true
 - SEO
   - This theme uses jekyll-seo-tag plugins for SEO. Please refer to the [documentation of the plugins](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) for additional theme uses and modification.
 
+<h5> All the images and content posted here are royalty free and for blog demo only. </h5>
 
