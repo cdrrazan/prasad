@@ -10,7 +10,7 @@ Prasad is the modified form of Affiliates Jekyll Theme.
 >HERE.</a> <br>
 
 >If you need any help open the issue in <a href="https://github.com/cdrrazan/prasad/issues/new"
->target="_blank"> Github Repo .</a>
+>target="_blank"> Github Repo.</a>
 
 
 <h3> Features </h3>
