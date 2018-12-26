@@ -5,6 +5,13 @@ title: Ultimate Guide to setup Prasad Jekyll theme
 
 Prasad is the modified form of Prasad theme.
 
+>You can view the full live site using this theme <a href="https://cdrrazan.com" target="_blank">
+>HERE.</a> <br>
+
+>If you need any help open the issue in <a href="https://github.com/cdrrazan/prasad/issues/new"
+>target="_blank"> Github Repo .</a>
+
+
 <h3> Features </h3>
 
 - Built for Jekyll
@@ -102,5 +109,4 @@ comments: true
 - SEO
   - This theme uses jekyll-seo-tag plugins for SEO. Please refer to the [documentation of the plugins](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) for additional theme uses and modification.
 
-<h5> All the images and content posted here are royalty free and for blog demo only. </h5>
-
+<h5> All the images posted here are royalty free and for blog demo purpose only. </h5>

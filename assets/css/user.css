@@ -4,7 +4,7 @@
 .lunrsearchresult a:hover, .lunrsearchresult a:focus {text-decoration: none;}
 .lunrsearchresult a:hover .title {text-decoration: underline;}
 
-.revue-form-field {
+.form-field {
 width: 100%;
 padding: 8px;
 border: 3px solid black;
