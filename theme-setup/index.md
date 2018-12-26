@@ -10,15 +10,14 @@ Prasad is the modified form of Affiliates Jekyll Theme.
 >HERE.</a> <br>
 
 >If you need any help open the issue in <a href="https://github.com/cdrrazan/prasad/issues/new"
->target="_blank"> Github Repo.</a>
+>target="_blank"> here.</a>
 
 
 <h3> Features </h3>
 
 - Built for Jekyll
 > Built in Jekyll 3.8.5
-- Compatible with Github and Gitlab Pages
-> Check .gitlab-ci.yml for CI/CD
+- Compatible with Github, Gitlab and Netlify Pages
 - Featured Posts
 - Index Pagination
 - Post Categories
@@ -45,7 +44,7 @@ Prasad is the modified form of Affiliates Jekyll Theme.
 
 Let's move on to using Prasad template in Jekyll:
 
-[Download](https://github.com/cdrrazan/prasad/archive/master.zip){:target="_blank"} or Fork *cdrrazan/prasad*.
+[Download](https://github.com/cdrrazan/prasad/archive/master.zip) or Fork *cdrrazan/prasad*.
 - In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, Disqus username, Authors, ShareThis code (https://www.sharethis.com/) etc.
 
 - Prasad requires 3 plugins:
@@ -73,11 +72,11 @@ Let's move on to using Prasad template in Jekyll:
     > Can setup multiple commenting system as well. Add these lines in layout/post.html
 
       ```
-       if page.categories contains "categories-name"
+      if page.categories contains "categories-name"
            include facebook.html
         else
           include disqus.html
-         endif
+      endif
       ```
 
     - meta description (optional) - <code>description: "this is my meta description"</code>
@@ -109,5 +108,9 @@ comments: true
 
 - SEO
   - This theme uses jekyll-seo-tag plugins for SEO. Please refer to the [documentation of the plugins](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) for additional theme uses and modification.
+
+ - Instruction on deploying in Gitlab and Netlify
+    - Gitlab: Add .gitlab-ci.yml for building Jekyll in Gitlab Pages.
+    - Netlify: Visit [this netlify docs](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
 
 <h5> All the images posted here are for blog demo purpose only. </h5>

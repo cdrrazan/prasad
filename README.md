@@ -109,7 +109,7 @@ comments: true
   - This theme uses jekyll-seo-tag plugins for SEO. Please refer to the [documentation of the plugins](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) for additional theme uses and modification.
 
  - Instruction on deploying in Gitlab and Netlify
-    - Gitlab: Add .gitlab-ci.yml for building Jekyll Pages in Gitlab
+    - Gitlab: Add .gitlab-ci.yml for building Jekyll in Gitlab Pages
     - Netlify: Visit [this netlify docs](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
 
 ## License
