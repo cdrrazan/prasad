@@ -6,6 +6,7 @@ date: 2017-03-15 12:00:00 +0545
 categories: blog
 author: john
 featured: true
+summary: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 ---
 
  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
