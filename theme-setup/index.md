@@ -6,6 +6,8 @@ comments: true
 
 Prasad is the modified form of Affiliates Jekyll Theme.
 
+- **Demo:** https://prasad.cdrrazan.com
+
 >You can view the full live site using this theme <a href="https://cdrrazan.com" target="_blank">
 >HERE.</a> <br>
 
@@ -16,7 +18,7 @@ Prasad is the modified form of Affiliates Jekyll Theme.
 <h3> Features </h3>
 
 - Built for Jekyll
-> Built in Jekyll 3.8.5
+> Built in version 3.8.5
 - Compatible with Github, Gitlab and Netlify Pages
 - Featured Posts
 - Index Pagination
@@ -71,13 +73,11 @@ Let's move on to using Prasad template in Jekyll:
     - page comments - <code>comments:true</code>
     > Can setup multiple commenting system as well. Add these lines in layout/post.html
 
-      ```
-      if page.categories contains "categories-name"
-           include facebook.html
-        else
-          include disqus.html
-      endif
-      ```
+      {% if page.categories contains "categories-name" %}
+          {%  include facebook.html %}
+        {% else %}
+          {% include disqus.html %}
+      {% endif %}
 
     - meta description (optional) - <code>description: "this is my meta description"</code>
     - permalinks (optional) - <code>permalink: /blog/this-is-link/</code>
@@ -110,7 +110,7 @@ comments: true
   - This theme uses jekyll-seo-tag plugins for SEO. Please refer to the [documentation of the plugins](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md) for additional theme uses and modification.
 
  - Instruction on deploying in Gitlab and Netlify
-    - Gitlab: Add .gitlab-ci.yml for building Jekyll in Gitlab Pages.
+    - Gitlab: Add .gitlab-ci.yml for building Jekyll in Gitlab Pages
     - Netlify: Visit [this netlify docs](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/)
 
 <h5> All the images posted here are for blog demo purpose only. </h5>
