@@ -71,14 +71,7 @@ Let's move on to using Prasad template in Jekyll:
     - post featured - <code>featured:true</code>
     - post featured image - <code>image: assets/images/mypic.jpg</code>
     - page comments - <code>comments:true</code>
-    > Can setup multiple commenting system as well. Add these lines in layout/post.html
-
-      {% if page.categories contains "categories-name" %}
-          {%  include facebook.html %}
-        {% else %}
-          {% include disqus.html %}
-      {% endif %}
-
+    > Can setup multiple commenting system as well.
     - meta description (optional) - <code>description: "this is my meta description"</code>
     - permalinks (optional) - <code>permalink: /blog/this-is-link/</code>
     > Setting up custom permalink in the post section will override permalink config from _config.yml
