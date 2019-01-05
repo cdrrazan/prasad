@@ -8,7 +8,7 @@ paginate: 6
 baseurl:
 email: 'hello@john.doe'
 google_analytics:
-disqus: jekyll24
+disqus: xjekyll
 sharethis: '<script type="text/javascript" src="//platform-api.sharethis.com/js/sharethis.js#property=5a1a46b37b0f3600122c23bc&product=sticky-share-buttons"></script>'
 
 # Authors
@@ -20,7 +20,7 @@ authors:
     email: hello@john.doe
     web: example.com
     twitter:
-    description: Hi, I am John Doe
+    description: Hi, I am John Doe.
 
 # Plugins
 plugins:
