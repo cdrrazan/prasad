@@ -1,7 +1,7 @@
 # This file is a template, and might need editing before it works on your project.
 # Template project: https://gitlab.com/pages/jekyll
 # Docs: https://docs.gitlab.com/ce/pages/
-image: ruby:2.6.3
+image: ruby:2.5.0
 
 variables:
   JEKYLL_ENV: production

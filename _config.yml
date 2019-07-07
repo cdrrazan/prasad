@@ -24,8 +24,8 @@ authors:
 
 # Plugins
 plugins:
-  - jekyll-paginate
   - jekyll-archives
+  - jekyll-paginate
   - jekyll-seo-tag
 
 permalinks: pretty
