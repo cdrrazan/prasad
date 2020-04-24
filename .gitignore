@@ -1,2 +1,10 @@
+# git ignore files and folder
+
+# generated site contents
 _site/
+
+# sass cache
 .sass-cache/*
+
+# ide contents
+.idea/
