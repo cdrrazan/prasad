@@ -1,23 +1,23 @@
 # Site
 name: Abdur Rahman
-description: Just another website
-meta_description: Just another website
+#description: Just another website
+#meta_description: Just another website
 logo: /assets/images/logo.png
 favicon: /assets/images/favicon.ico
 paginate: 6
 baseurl:
-email: 'hello@john.doe'
-google_analytics: UA-103662447-9
+email: 'abdur.rahman.giki@gmail.com'
+#google_analytics: UA-103662447-9
 disqus:
 sharethis:
 
 # Authors
 authors:
-  john:
-    name: john
-    display_name: John Doe
+  Abdur:
+    name: Abdur
+    display_name: Abdur Rahman
     image: /assets/images/john.jpg
-    email: hello@john.doe
+    email: abdur.rahman.giki@gmail.com
     web: example.com
     twitter:
     description: Hi, I am Abdur Rahman.
@@ -56,6 +56,6 @@ social:
 name: John Doe
 links:
     - https://twitter.com/
-    - https://www.facebook.com/
-    - https://www.linkedin.com/
+    - https://www.facebook.com/manikhan29/
+    - https://www.linkedin.com/in/abdurrahman29/
     - https://github.com/
