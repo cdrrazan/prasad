@@ -1,5 +1,5 @@
 # Site
-name: John Doe
+name: Abdur Rahman
 description: Just another website
 meta_description: Just another website
 logo: /assets/images/logo.png
@@ -15,12 +15,12 @@ sharethis:
 authors:
   john:
     name: john
-    display_name: John Doe
+    display_name: Abdur Rahman
     image: /assets/images/john.jpg
     email: hello@john.doe
     web: example.com
     twitter:
-    description: Hi, I am John Doe.
+    description: Hi, I am Abdur Rahman.
 
 # Plugins
 plugins:
