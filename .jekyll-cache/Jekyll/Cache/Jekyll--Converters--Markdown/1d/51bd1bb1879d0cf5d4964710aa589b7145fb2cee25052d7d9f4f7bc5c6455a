@@ -1,0 +1,162 @@
+I"Â<p>Prasad is the modified form of Affiliates Jekyll Theme.</p>
+
+<ul>
+  <li><strong>Demo:</strong> https://prasad.cdrrazan.com</li>
+</ul>
+
+<blockquote>
+  <p>You can view the full live site using this theme <a href="https://cdrrazan.com" target="_blank">
+HERE.</a> <br /></p>
+</blockquote>
+
+<blockquote>
+  <p>If you need any help open the issue in <a href="https://github.com/cdrrazan/prasad/issues/new" target="_blank"> here.</a></p>
+</blockquote>
+
+<h3> Features </h3>
+
+<ul>
+  <li>Built for Jekyll
+    <blockquote>
+      <p>Built in version 3.8.5</p>
+    </blockquote>
+  </li>
+  <li>Compatible with Github, Gitlab and Netlify Pages</li>
+  <li>Featured Posts</li>
+  <li>Index Pagination</li>
+  <li>Post Categories
+    <blockquote>
+      <p>categories/name</p>
+    </blockquote>
+  </li>
+  <li>Prev/Next Link</li>
+  <li>Category Archives (this is not yet compatible with github pages though)
+    <blockquote>
+      <p>compatible with netlify and gitlab pages</p>
+    </blockquote>
+  </li>
+  <li>Integrations:
+    <ul>
+      <li>Disqus Comments</li>
+      <li>Google Analaytics</li>
+      <li>Sharethis Integration</li>
+      <li>Formspree.io Contact</li>
+    </ul>
+  </li>
+  <li>Design Features:
+    <ul>
+      <li>Bootstrap v4.0.0-alpha.6</li>
+      <li>Font Awesome</li>
+      <li>Masonry</li>
+    </ul>
+  </li>
+  <li>Layouts:
+    <ul>
+      <li>Default</li>
+      <li>Sticky Sidebar</li>
+      <li>Page</li>
+      <li>Archive</li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="how-to-use">How to Use</h4>
+
+<p>Letâ€™s move on to using Prasad template in Jekyll:</p>
+
+<p><a href="https://github.com/cdrrazan/prasad/archive/master.zip">Download</a> or Fork <em>cdrrazan/prasad</em>.</p>
+<ul>
+  <li>
+    <p>In your local project, open <code>_config.yml</code>. If your site is in root, for <code>baseurl</code>, make sure this is set to <code>baseurl: /</code>. Also, change your Google Analytics code, Disqus username, Authors, ShareThis code (https://www.sharethis.com/) etc.</p>
+  </li>
+  <li>Prasad requires 3 plugins:
+    <ul>
+      <li><code>$ gem install jekyll-paginate</code></li>
+      <li><code>$ gem install jekyll-archives</code></li>
+      <li><code>$ gem install jekyll-seo-tag</code></li>
+    </ul>
+  </li>
+  <li>Locate the files and customize:
+    <ul>
+      <li>header &amp; footer in <code>default.html</code>.</li>
+      <li>homepage in <code>index.html</code></li>
+      <li>contact form in <code>contact.html</code> (https://formspree.io/)
+        <blockquote>
+          <p>Suitable for any third party Contact form service provider.</p>
+        </blockquote>
+      </li>
+      <li>post sidebar in <code>includes/sidebar.html</code>
+        <blockquote>
+          <p>Suitable for Referral or Ads Code. You can make sidebar unsticky as well.</p>
+        </blockquote>
+      </li>
+      <li>sign up form in <code>includes/newsletter.html</code>
+        <blockquote>
+          <p>Suitable for newsletter service. You can directly use the REVUE newsletter service from here.</p>
+        </blockquote>
+      </li>
+      <li>search blog in <code> Search/index.html </code>
+        <blockquote>
+          <p>Theme uses Lunr.js for searching the blog.</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+  <li>Start blogging by adding your .md files in <code>_posts</code>. You will see in examples in the download.</li>
+  <li>YAML front matter
+    <ul>
+      <li>post featured - <code>featured:true</code></li>
+      <li>post featured image - <code>image: assets/images/mypic.jpg</code></li>
+      <li>page comments - <code>comments:true</code>
+        <blockquote>
+          <p>Can setup multiple commenting system as well.</p>
+        </blockquote>
+      </li>
+      <li>meta description (optional) - <code>description: "this is my meta description"</code></li>
+      <li>permalinks (optional) - <code>permalink: /blog/this-is-link/</code>
+        <blockquote>
+          <p>Setting up custom permalink in the post section will override permalink config from _config.yml</p>
+        </blockquote>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>YAML Post Example:</p>
+<pre class="highlight">
+---
+layout: post
+title:  "We all wait for summer"
+author: john
+categories: [ Jekyll, tutorial ]
+image: assets/images/1.jpg
+featured: true
+permalink: /blog/permalinks-setup/
+---
+</pre>
+
+<p>YAML Page Example</p>
+<pre class="highlight">
+---
+layout: page
+title: Prasad Template for Jekyll
+comments: true
+---
+</pre>
+
+<ul>
+  <li>SEO
+    <ul>
+      <li>This theme uses jekyll-seo-tag plugins for SEO. Please refer to the <a href="https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md">documentation of the plugins</a> for additional theme uses and modification.</li>
+    </ul>
+  </li>
+  <li>Instruction on deploying in Gitlab and Netlify
+    <ul>
+      <li>Gitlab: Add .gitlab-ci.yml for building Jekyll in Gitlab Pages</li>
+      <li>Netlify: Visit <a href="https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/">this netlify docs</a></li>
+    </ul>
+  </li>
+</ul>
+
+<h5> All the images posted here are for blog demo purpose only. </h5>
+:ET
