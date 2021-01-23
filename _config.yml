@@ -18,7 +18,7 @@ authors:
     display_name: John Doe
     image: /assets/images/john.jpg
     email: hello@john.doe
-    web: example.com
+    web: http://example.com
     twitter:
     description: Hi, I am John Doe.
 
