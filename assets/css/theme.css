@@ -388,9 +388,9 @@ span.post-name a, span.post-read-more a:hover {
 }
 
 .intro {
-    background-image: url(../images/head.jpg);
+    /*background-image: url(../images/head.jpg);*/
     background-size: cover;
-    padding: 11rem 0;
+    padding: 12rem 0;
     margin-top: -87px;
     margin-bottom: 3.5rem;
     z-index: 1;
