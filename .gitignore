@@ -8,3 +8,7 @@ _site/
 
 # ide contents
 .idea/
+.DS_Store
+
+# Cache
+.jekyll-cache/

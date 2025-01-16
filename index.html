@@ -8,17 +8,34 @@ title: Home
 <!-- Home Jumbotron
 ================================================== -->
 <section class="intro">
-    <center>
-        <img src="/assets/images/john.jpg" style="border-radius: 50%"
-             height="90px" width="240px" alt="A picture of author.">
+    <div style="text-align: center;">
+        <img src="/assets/images/john.jpg" style="border-radius: 50%;width:390px" alt="A picture of author.">
         <br><br>
         <h1 style="color:white">Hi, I am <span>John Doe.</span></h1>
         <br>
         <h3> Web designer and Developer</h3>
         <br>
         <a href="/about/" class="btn" style="color:white">View More about me</a>
-    </center>
+    </div>
 </section>
+
+<script>
+  VANTA.NET({
+    el: ".intro",
+    mouseControls: true,
+    touchControls: true,
+    gyroControls: false,
+    minHeight: 200.00,
+    minWidth: 200.00,
+    scale: 1.00,
+    scaleMobile: 1.00,
+    color: 0xf0ff,
+    backgroundColor: 0x1b1b22,
+    points: 15.00,
+    maxDistance: 15.00,
+    spacing: 11.00
+  })
+</script>
 
 <!-- We reopen main-content and container -->
 <div class="container">
