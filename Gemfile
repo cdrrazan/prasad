@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem 'jekyll', '4.2.0'
+gem 'jekyll', '4.3.4'
 
 group :jekyll_plugins do
-  gem "kramdown", ">= 2.3.0"
+  gem "kramdown"
   gem 'jekyll-archives'
   gem 'jekyll-feed'
   gem 'jekyll-paginate'
