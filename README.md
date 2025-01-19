@@ -7,8 +7,7 @@
 
 - **Demo:** https://prasad.cdrrazan.com
 
-![SCREENSHOT](demo.png)
-
+<img width="1506" alt="Screenshot 2025-01-19 at 7 17 22 AM" src="https://github.com/user-attachments/assets/0c451ae6-6821-4e3d-b09b-57912e1124eb" />
 
 >You can view the full live site using this theme <a href="https://cdrrazan.com" target="_blank">
 >HERE.</a> <br>
